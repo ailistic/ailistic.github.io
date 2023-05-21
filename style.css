@@ -1,0 +1,38 @@
+ 
+ body {
+    font-family: "Arial";
+    font-size: 18px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0cAXdV9_VYtb8qbU-nULFD1Wg3WmVZ3uEqA&usqp=CAU);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;     
+  }
+  
+textarea {
+    font-family: "Arial";
+    display: block;
+    background-color: #fdf5eb;
+    border: 1px solid #000;
+    width: 100%;
+    height: 150px;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  h1 {
+    color: #C62828;
+    background-color: #fdf5eb;
+    font-family: "Arial";
+  }  
+
+  button {
+    background-color: #1B5E20; 
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  } 

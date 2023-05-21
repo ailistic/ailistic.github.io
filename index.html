@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <h1>&#127775;&#127876; Santa Secreto &#127877;</h1>
+    <div class="container">
+      <label for="mensaje"><b>Este sitio está hecho para que puedas codificar tu carta para Santa y que ninguna otra persona
+      sepa lo que dice. <p></p>Envíale esta dirección web con tu carta para que él pueda descifrarla.</b> &#127876;.</label>
+      <p></p>
+      <textarea id = "mensaje" name="mensaje" class="mensaje" 
+      placeholder="DEBES ESCRIBIR TU CARTA EN MAYÚSCULAS" rows="5" cols="40"></textarea>    
+      <p></p>
+      <label for="desplazamiento"><b>Elige la cantidad de espacios que quieres usar para codificar tu carta:</b></label>
+      <input id="key" type="number" min="1" max="33" value="3"/>
+      <p></p>
+      <button id="cifrar">Codificar</button>
+      <button id="descifrar">Decodificar</button>
+      <p></p>
+      <label for="mensaje"><b>Aquí está tu carta cifrada:</b></label>
+      <p></p>
+      <textarea id="text" type="mensaje"></textarea>
+    </div>    
+    <script src="index.js" type="module"></script>
+</body>
+</html>
